@@ -82,7 +82,7 @@ const createChart = () => {
 
 <template>
   <section
-    class="w-[830px] border relative h-[500px] flex flex-wrap items-center justify-center barchart ml-[90px] my-5 bg-white rounded-[14px] overflow-y-hidden overflow-x-auto px-4 py-5">
+    class="w-[750px] border relative h-[500px] flex flex-wrap items-center justify-center barchart ml-[90px] my-5 bg-white rounded-[14px] overflow-y-hidden overflow-x-auto px-4 py-5">
     <div class="barchart_header w-full flex items-center justify-between">
       <h3 class="capitalize w-full font-[600] flex items-center justify-between text-[18px]">
         sales trends
