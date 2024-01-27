@@ -1,0 +1,89 @@
+{
+  "sales_trend": {
+    "january": 8000,
+    "february": 21000,
+    "march": 6000,
+    "april": 30000,
+    "may": 9000,
+    "june": 45000,
+    "july": 9000,
+    "august": 22000,
+    "september": 32000,
+    "october": 7000,
+    "november": 30000,
+    "december": 26000
+  },
+  "last_orders": [{
+      "image": "./assets/icons/user-01.png",
+      "name": "marcus bergson",
+      "date": "Nov 15, 2023",
+      "amount": 80000,
+      "status": "paid",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "jaydon vaccaro",
+      "date": "Nov 15, 2023",
+      "amount": 150000,
+      "status": "refund",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "corey schleifer",
+      "date": "Nov 14, 2023",
+      "amount": 87000,
+      "status": "paid",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "cooper press",
+      "date": "Nov 14, 2023",
+      "amount": 100000,
+      "status": "refund",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "philip lubin",
+      "date": "Nov 13, 2023",
+      "amount": 74000,
+      "status": "paid",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "marcus bergson",
+      "date": "Nov 13, 2023",
+      "amount": 70000,
+      "status": "refund",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "jaydon vaccaro",
+      "date": "Nov 12, 2023",
+      "amount": 120000,
+      "status": "paid",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "corey schleifer",
+      "date": "Nov 12, 2023",
+      "amount": 77000,
+      "status": "refund",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "cooper press",
+      "date": "Nov 11, 2023",
+      "amount": 90000,
+      "status": "paid",
+      "invoice": "www.filepath.com"
+    },
+    {
+      "name": "philip lubin",
+      "date": "Nov 11, 2023",
+      "amount": 75000,
+      "status": "refund",
+      "invoice": "www.filepath.com"
+    }
+  ]
+
+}
