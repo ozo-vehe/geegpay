@@ -50,7 +50,7 @@ const createChart = () => {
           borderRadius: 50,
           backgroundColor: 'rgba(52, 202, 165, 0.10)',
           hoverBackgroundColor: gradient,
-          barThickness: screen_width.value > 800 ? 40 : 20,
+          barThickness: 40,
         }
       ]
     },

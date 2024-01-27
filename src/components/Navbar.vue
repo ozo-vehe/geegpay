@@ -94,9 +94,8 @@ const showSidebar = () => {
 .show_sidebar {
   transform: translateX(0px) !important;
 }
-
-.show_menu {
-  visibility: hidden;
+.hamburger_menu {
+  display: none;
 }
 
 .nav_logo img {
