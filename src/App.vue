@@ -1,7 +1,7 @@
 <script setup>
 import Barchat from './components/Barchat.vue';
 import Market from './components/Market.vue';
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/Navbar.vue';
 import Platform from './components/Platform.vue';
 import Sidebar from './components/Sidebar.vue';
 import TableData from './components/TableData.vue';
