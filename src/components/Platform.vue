@@ -82,14 +82,15 @@ const formatAmount = (amount) => {
 
 @media screen and (max-width: 1600px) {
   .platform {
-    width: 720px;
+    width: 520px;
     height: 420px;
+    margin-left: 40px;
   }
 }
 
 @media screen and (max-width: 1550px) {
   .platform {
-    margin-left: 80px;
+    margin-left: 0px;
   }
 }
 

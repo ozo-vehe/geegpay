@@ -105,7 +105,7 @@ const format_amount = (amount) => {
 </script>
 
 <template>
-  <section class="table_data ml-[90px] overflow-hidden px-[20px] pt-[18px] border border-[#EDF2F7] bg-white w-[830px] h-[440px] rounded-[14px]">
+  <section class="table_data ml-[90px] overflow-hidden px-[20px] pt-[18px] border border-[#EDF2F7] bg-white w-[750px] h-[440px] rounded-[14px]">
     <h3 class="capitalize w-full font-[600] flex items-center mb-2 justify-between text-[18px]">
       <span>last orders</span>
       <span class="text-[#34caa5] cursor-pointer" @click="scroll = !scroll">{{ scroll ? 'show less' : 'see all' }}</span>
@@ -168,8 +168,8 @@ const format_amount = (amount) => {
 
 @media screen and (max-width: 1600px) {
   .table_data {
-    margin-left: 80px;
-    width: 720px !important;
+    margin-left: 40px;
+    width: 630px !important;
     height: 420px;
   }
 }
@@ -178,6 +178,7 @@ const format_amount = (amount) => {
   .table_data {
     margin-left: 0px;
     /* width: 600px !important; */
+    width: 720px !important;
   }
   .table_data {
     margin-left: 0px;

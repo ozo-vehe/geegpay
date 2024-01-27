@@ -117,16 +117,17 @@ canvas {
 
 @media screen and (max-width: 1600px) {
   .barchart {
-    margin-left: 80px;
-    width: 720px;
-    height: 420px;
+    margin-left: 40px;
+    width: 630px;
+    height: 370px;
   }
 }
 
 @media screen and (max-width: 1300px) {
-  .table_data {
+  .barchart {
     margin-left: 0px;
-    width: 600px;
+    width: 720px;
+    height: 420px;
   }
   .barchart {
     margin-left: 0px;

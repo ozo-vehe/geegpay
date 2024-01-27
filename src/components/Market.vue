@@ -39,15 +39,15 @@ const data = [
 
 <template>
   <section
-    class="relative w-[600px] h-[500px] mt-5 flex gap-5 flex-wrap items-center market bg-inherit rounded-[14px] overflow-hidden">
-    <div class="dashboard_card w-[48.3%] h-[48%] p-4 rounded-[14px] border border-[#edf2f7] bg-white" v-for="(d, index) in data"
+    class="relative w-[700px] h-[500px] mt-5 flex gap-5 flex-wrap items-center market bg-inherit rounded-[14px] overflow-hidden">
+    <div class="dashboard_card w-[48%] h-[47.2%] p-4 rounded-[14px] border border-[#edf2f7] bg-white" v-for="(d, index) in data"
       :key="index">
       <div class="images flex justify-between items-start mb-4">
         <img class="border rounded-full w-10 p-2" :src="d.icon" alt="Tick icon">
         <img class="h-full" :src="d.graph" alt="Green graph">
       </div>
 
-      <div class="card_details mb-[26px]">
+      <div class="card_details mb-[5px]">
         <h3 class="text-[18px] text-[#898989]">{{ d.title }}</h3>
         <p class="text-[24px] text-[#3a3f51] font-[600]">{{ d.title.includes("Income") ? `$${d.value}.00` : d.value }}</p>
       </div>
@@ -83,14 +83,15 @@ const data = [
 } */
 @media screen and (max-width: 1600px) {
   .market {
-    width: 720px;
-    height: 420px;
+    width: 520px;
+    height: 370px;
+    margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 1550px) {
   .market {
-    margin-left: 80px;
+    margin-left: 0px;
   }
 }
 
